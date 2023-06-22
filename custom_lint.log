@@ -1,0 +1,2453 @@
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _flutterfire_internals v1.0.16
+- args v2.4.0
+- cross_file v0.3.3+4
+- device_info_plus v8.1.0
+- firebase_core v2.7.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.2.1
+- firebase_crashlytics v3.0.15
+- firebase_crashlytics_platform_interface v3.3.15
+- firebase_messaging v14.2.5
+- firebase_messaging_platform_interface v4.2.14
+- firebase_messaging_web v3.2.15
+- firebase_remote_config v3.0.13
+- firebase_remote_config_platform_interface v1.1.33
+- firebase_remote_config_web v1.1.22
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.8
+- flutter_riverpod v2.3.0
+- google_fonts v4.0.3
+- image_picker v0.8.6+4
+- image_picker_android v0.8.5+8
+- image_picker_for_web v2.1.11
+- image_picker_ios v0.8.7
+- image_picker_platform_interface v2.6.3
+- logger v1.2.2
+- package_info_plus v3.0.3
+- path_provider v2.0.13
+- path_provider_android v2.0.23
+- path_provider_foundation v2.1.2
+- path_provider_linux v2.1.9
+- path_provider_platform_interface v2.0.6
+- path_provider_windows v2.1.4
+- pinput v2.2.31
+- plugin_platform_interface v2.1.4
+- pubspec_parse v1.2.2
+- purchases_flutter v4.10.2
+- riverpod v2.3.0
+- smooth_page_indicator v1.0.1
+- sqflite v2.2.5
+- url_launcher v6.1.10
+- url_launcher_android v6.0.24
+- url_launcher_ios v6.1.1
+- url_launcher_linux v3.0.3
+- url_launcher_macos v3.0.3
+- url_launcher_platform_interface v2.1.2
+- url_launcher_web v2.0.15
+- url_launcher_windows v3.0.4
+- xdg_directories v1.0.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _flutterfire_internals v1.0.13
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.1.0
+- firebase_core v2.5.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.1.1
+- firebase_crashlytics v3.0.12
+- firebase_crashlytics_platform_interface v3.3.12
+- firebase_messaging v14.2.2
+- firebase_messaging_platform_interface v4.2.11
+- firebase_messaging_web v3.2.12
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.3
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.3
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _flutterfire_internals v1.0.13
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.5.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.1.1
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- firebase_remote_config v3.0.10
+- firebase_remote_config_platform_interface v1.1.30
+- firebase_remote_config_web v1.1.19
+- flutter_image v4.1.4
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- purchases_flutter v4.9.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- purchases_flutter v4.9.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.8
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.8
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web firebase_remote_config firebase_remote_config_platform_interface firebase_remote_config_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web firebase_remote_config firebase_remote_config_platform_interface firebase_remote_config_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _flutterfire_internals v1.0.16
+- args v2.4.0
+- cross_file v0.3.3+4
+- device_info_plus v8.1.0
+- firebase_core v2.7.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.2.1
+- firebase_crashlytics v3.0.15
+- firebase_crashlytics_platform_interface v3.3.15
+- firebase_messaging v14.2.5
+- firebase_messaging_platform_interface v4.2.14
+- firebase_messaging_web v3.2.15
+- firebase_remote_config v3.0.13
+- firebase_remote_config_platform_interface v1.1.33
+- firebase_remote_config_web v1.1.22
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.8
+- flutter_riverpod v2.3.0
+- google_fonts v4.0.3
+- image_picker v0.8.6+4
+- image_picker_android v0.8.5+8
+- image_picker_for_web v2.1.11
+- image_picker_ios v0.8.7
+- image_picker_platform_interface v2.6.3
+- logger v1.2.2
+- package_info_plus v3.0.3
+- path_provider v2.0.13
+- path_provider_android v2.0.23
+- path_provider_foundation v2.1.2
+- path_provider_linux v2.1.9
+- path_provider_platform_interface v2.0.6
+- path_provider_windows v2.1.4
+- pinput v2.2.31
+- plugin_platform_interface v2.1.4
+- pubspec_parse v1.2.2
+- purchases_flutter v4.10.2
+- riverpod v2.3.0
+- smooth_page_indicator v1.0.1
+- sqflite v2.2.5
+- url_launcher v6.1.10
+- url_launcher_android v6.0.24
+- url_launcher_ios v6.1.1
+- url_launcher_linux v3.0.3
+- url_launcher_macos v3.0.3
+- url_launcher_platform_interface v2.1.2
+- url_launcher_web v2.0.15
+- url_launcher_windows v3.0.4
+- xdg_directories v1.0.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _flutterfire_internals v1.0.13
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.1.0
+- firebase_core v2.5.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.1.1
+- firebase_crashlytics v3.0.12
+- firebase_crashlytics_platform_interface v3.3.12
+- firebase_messaging v14.2.2
+- firebase_messaging_platform_interface v4.2.11
+- firebase_messaging_web v3.2.12
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.3
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.3
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _flutterfire_internals v1.0.13
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.5.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.1.1
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- firebase_remote_config v3.0.10
+- firebase_remote_config_platform_interface v1.1.30
+- firebase_remote_config_web v1.1.19
+- flutter_image v4.1.4
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- purchases_flutter v4.9.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- purchases_flutter v4.9.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.8
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.8
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web firebase_remote_config firebase_remote_config_platform_interface firebase_remote_config_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web firebase_remote_config firebase_remote_config_platform_interface firebase_remote_config_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _flutterfire_internals v1.0.16
+- args v2.4.0
+- cross_file v0.3.3+4
+- device_info_plus v8.1.0
+- firebase_core v2.7.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.2.1
+- firebase_crashlytics v3.0.15
+- firebase_crashlytics_platform_interface v3.3.15
+- firebase_messaging v14.2.5
+- firebase_messaging_platform_interface v4.2.14
+- firebase_messaging_web v3.2.15
+- firebase_remote_config v3.0.13
+- firebase_remote_config_platform_interface v1.1.33
+- firebase_remote_config_web v1.1.22
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.8
+- flutter_riverpod v2.3.0
+- google_fonts v4.0.3
+- image_picker v0.8.6+4
+- image_picker_android v0.8.5+8
+- image_picker_for_web v2.1.11
+- image_picker_ios v0.8.7
+- image_picker_platform_interface v2.6.3
+- logger v1.2.2
+- package_info_plus v3.0.3
+- path_provider v2.0.13
+- path_provider_android v2.0.23
+- path_provider_foundation v2.1.2
+- path_provider_linux v2.1.9
+- path_provider_platform_interface v2.0.6
+- path_provider_windows v2.1.4
+- pinput v2.2.31
+- plugin_platform_interface v2.1.4
+- pubspec_parse v1.2.2
+- purchases_flutter v4.10.2
+- riverpod v2.3.0
+- smooth_page_indicator v1.0.1
+- sqflite v2.2.5
+- url_launcher v6.1.10
+- url_launcher_android v6.0.24
+- url_launcher_ios v6.1.1
+- url_launcher_linux v3.0.3
+- url_launcher_macos v3.0.3
+- url_launcher_platform_interface v2.1.2
+- url_launcher_web v2.0.15
+- url_launcher_windows v3.0.4
+- xdg_directories v1.0.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _flutterfire_internals v1.0.13
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.1.0
+- firebase_core v2.5.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.1.1
+- firebase_crashlytics v3.0.12
+- firebase_crashlytics_platform_interface v3.3.12
+- firebase_messaging v14.2.2
+- firebase_messaging_platform_interface v4.2.11
+- firebase_messaging_web v3.2.12
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.3
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.3
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _flutterfire_internals v1.0.13
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.5.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.1.1
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- firebase_remote_config v3.0.10
+- firebase_remote_config_platform_interface v1.1.30
+- firebase_remote_config_web v1.1.19
+- flutter_image v4.1.4
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- purchases_flutter v4.9.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- purchases_flutter v4.9.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.8
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.8
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web firebase_remote_config firebase_remote_config_platform_interface firebase_remote_config_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web firebase_remote_config firebase_remote_config_platform_interface firebase_remote_config_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _flutterfire_internals v1.0.16
+- args v2.4.0
+- cross_file v0.3.3+4
+- device_info_plus v8.1.0
+- firebase_core v2.7.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.2.1
+- firebase_crashlytics v3.0.15
+- firebase_crashlytics_platform_interface v3.3.15
+- firebase_messaging v14.2.5
+- firebase_messaging_platform_interface v4.2.14
+- firebase_messaging_web v3.2.15
+- firebase_remote_config v3.0.13
+- firebase_remote_config_platform_interface v1.1.33
+- firebase_remote_config_web v1.1.22
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.8
+- flutter_riverpod v2.3.0
+- google_fonts v4.0.3
+- image_picker v0.8.6+4
+- image_picker_android v0.8.5+8
+- image_picker_for_web v2.1.11
+- image_picker_ios v0.8.7
+- image_picker_platform_interface v2.6.3
+- logger v1.2.2
+- package_info_plus v3.0.3
+- path_provider v2.0.13
+- path_provider_android v2.0.23
+- path_provider_foundation v2.1.2
+- path_provider_linux v2.1.9
+- path_provider_platform_interface v2.0.6
+- path_provider_windows v2.1.4
+- pinput v2.2.31
+- plugin_platform_interface v2.1.4
+- pubspec_parse v1.2.2
+- purchases_flutter v4.10.2
+- riverpod v2.3.0
+- smooth_page_indicator v1.0.1
+- sqflite v2.2.5
+- url_launcher v6.1.10
+- url_launcher_android v6.0.24
+- url_launcher_ios v6.1.1
+- url_launcher_linux v3.0.3
+- url_launcher_macos v3.0.3
+- url_launcher_platform_interface v2.1.2
+- url_launcher_web v2.0.15
+- url_launcher_windows v3.0.4
+- xdg_directories v1.0.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _flutterfire_internals v1.0.13
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.1.0
+- firebase_core v2.5.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.1.1
+- firebase_crashlytics v3.0.12
+- firebase_crashlytics_platform_interface v3.3.12
+- firebase_messaging v14.2.2
+- firebase_messaging_platform_interface v4.2.11
+- firebase_messaging_web v3.2.12
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.3
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.3
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _flutterfire_internals v1.0.13
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.5.0
+- firebase_core_platform_interface v4.5.3
+- firebase_core_web v2.1.1
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- firebase_remote_config v3.0.10
+- firebase_remote_config_platform_interface v1.1.30
+- firebase_remote_config_web v1.1.19
+- flutter_image v4.1.4
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- purchases_flutter v4.9.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- purchases_flutter v4.9.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.8
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.8
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _flutterfire_internals v1.0.12
+- args v2.3.2
+- cross_file v0.3.3+2
+- device_info_plus v8.0.0
+- firebase_core v2.4.1
+- firebase_core_platform_interface v4.5.2
+- firebase_core_web v2.1.0
+- firebase_crashlytics v3.0.11
+- firebase_crashlytics_platform_interface v3.3.11
+- firebase_messaging v14.2.1
+- firebase_messaging_platform_interface v4.2.10
+- firebase_messaging_web v3.2.11
+- flutter_image v4.1.5
+- flutter_plugin_android_lifecycle v2.0.7
+- flutter_riverpod v2.1.3
+- google_fonts v4.0.1
+- image_picker v0.8.6+1
+- image_picker_android v0.8.5+5
+- image_picker_for_web v2.1.10
+- image_picker_ios v0.8.6+6
+- image_picker_platform_interface v2.6.2
+- logger v1.1.0
+- package_info_plus v3.0.2
+- path_provider v2.0.12
+- path_provider_android v2.0.22
+- path_provider_foundation v2.1.1
+- path_provider_linux v2.1.7
+- path_provider_platform_interface v2.0.5
+- path_provider_windows v2.1.3
+- pinput v2.2.23
+- plugin_platform_interface v2.1.3
+- pubspec_parse v1.2.1
+- riverpod v2.1.3
+- smooth_page_indicator v1.0.0+2
+- sqflite v2.2.4+1
+- url_launcher v6.1.9
+- url_launcher_android v6.0.23
+- url_launcher_ios v6.0.18
+- url_launcher_linux v3.0.2
+- url_launcher_macos v3.0.2
+- url_launcher_platform_interface v2.1.1
+- url_launcher_web v2.0.14
+- url_launcher_windows v3.0.3
+- xdg_directories v0.2.0+3
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web firebase_remote_config firebase_remote_config_platform_interface firebase_remote_config_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web firebase_remote_config firebase_remote_config_platform_interface firebase_remote_config_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse purchases_flutter riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _flutterfire_internals args cross_file device_info_plus firebase_core firebase_core_platform_interface firebase_core_web firebase_crashlytics firebase_crashlytics_platform_interface firebase_messaging firebase_messaging_platform_interface firebase_messaging_web flutter_image flutter_plugin_android_lifecycle flutter_riverpod google_fonts image_picker image_picker_android image_picker_for_web image_picker_ios image_picker_platform_interface logger package_info_plus path_provider path_provider_android path_provider_foundation path_provider_linux path_provider_platform_interface path_provider_windows pinput plugin_platform_interface pubspec_parse riverpod smooth_page_indicator sqflite url_launcher url_launcher_android url_launcher_ios url_launcher_linux url_launcher_macos url_launcher_platform_interface url_launcher_web url_launcher_windows xdg_directories
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+- golden_toolkit v0.15.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+- golden_toolkit v0.14.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+- golden_toolkit v0.15.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer golden_toolkit
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer golden_toolkit
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer golden_toolkit
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+[custom_lint] 2023-03-01T11:17:49.520323 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:98:27: Error: Type 'BinaryPattern' not found.
+[custom_lint] 2023-03-01T11:17:49.520323   void visitBinaryPattern(BinaryPattern node) {
+[custom_lint] 2023-03-01T11:17:49.520323                           ^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:17:49.520323 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:706:28: Error: Type 'PostfixPattern' not found.
+[custom_lint] 2023-03-01T11:17:49.520323   void visitPostfixPattern(PostfixPattern node) {
+[custom_lint] 2023-03-01T11:17:49.520323                            ^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:17:49.520323 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:748:36: Error: Type 'RecordPatternFieldName' not found.
+[custom_lint] 2023-03-01T11:17:49.520323   void visitRecordPatternFieldName(RecordPatternFieldName node) {
+[custom_lint] 2023-03-01T11:17:49.520323                                    ^^^^^^^^^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:17:49.520323 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:1064:28: Error: Type 'BinaryPattern' not found.
+[custom_lint] 2023-03-01T11:17:49.520323   final List<_Subscription<BinaryPattern>> _forBinaryPattern = [];
+[custom_lint] 2023-03-01T11:17:49.520323                            ^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:17:49.520323 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:1187:28: Error: Type 'PostfixPattern' not found.
+[custom_lint] 2023-03-01T11:17:49.520323   final List<_Subscription<PostfixPattern>> _forPostfixPattern = [];
+[custom_lint] 2023-03-01T11:17:49.520323                            ^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:17:49.520323 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:1193:28: Error: Type 'RecordPatternFieldName' not found.
+[custom_lint] 2023-03-01T11:17:49.520323   final List<_Subscription<RecordPatternFieldName>> _forRecordPatternFieldName =
+[custom_lint] 2023-03-01T11:17:49.520323                            ^^^^^^^^^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:17:49.520323 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:1331:19: Error: Type 'BinaryPattern' not found.
+[custom_lint] 2023-03-01T11:17:49.520323     void Function(BinaryPattern node) listener,
+[custom_lint] 2023-03-01T11:17:49.520323                   ^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:17:49.520323 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:2119:19: Error: Type 'PostfixPattern' not found.
+[custom_lint] 2023-03-01T11:17:49.520323     void Function(PostfixPattern node) listener,
+[custom_lint] 2023-03-01T11:17:49.520323                   ^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:17:49.520323 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:2175:19: Error: Type 'RecordPatternFieldName' not found.
+[custom_lint] 2023-03-01T11:17:49.520323     void Function(RecordPatternFieldName node) listener,
+[custom_lint] 2023-03-01T11:17:49.520323                   ^^^^^^^^^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:17:49.520323 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:2602:19: Error: Type 'BinaryPattern' not found.
+[custom_lint] 2023-03-01T11:17:49.520323     void Function(BinaryPattern node) listener,
+[custom_lint] 2023-03-01T11:17:49.520323                   ^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:17:49.520323
+[custom_lint] 2023-03-01T11:17:49.520323
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      _SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:490:11)
+#1      _rootRunUnary (dart:async/zone.dart:1406:47)
+#2      _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+<asynchronous suspension>
+#3      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+[custom_lint] 2023-03-01T11:18:30.105083 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:98:27: Error: Type 'BinaryPattern' not found.
+[custom_lint] 2023-03-01T11:18:30.105083   void visitBinaryPattern(BinaryPattern node) {
+[custom_lint] 2023-03-01T11:18:30.105083                           ^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:18:30.105083 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:706:28: Error: Type 'PostfixPattern' not found.
+[custom_lint] 2023-03-01T11:18:30.105083   void visitPostfixPattern(PostfixPattern node) {
+[custom_lint] 2023-03-01T11:18:30.105083                            ^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:18:30.105083 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:748:36: Error: Type 'RecordPatternFieldName' not found.
+[custom_lint] 2023-03-01T11:18:30.105083   void visitRecordPatternFieldName(RecordPatternFieldName node) {
+[custom_lint] 2023-03-01T11:18:30.105083                                    ^^^^^^^^^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:18:30.105083 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:1064:28: Error: Type 'BinaryPattern' not found.
+[custom_lint] 2023-03-01T11:18:30.105083   final List<_Subscription<BinaryPattern>> _forBinaryPattern = [];
+[custom_lint] 2023-03-01T11:18:30.105083                            ^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:18:30.105083 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:1187:28: Error: Type 'PostfixPattern' not found.
+[custom_lint] 2023-03-01T11:18:30.105083   final List<_Subscription<PostfixPattern>> _forPostfixPattern = [];
+[custom_lint] 2023-03-01T11:18:30.105083                            ^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:18:30.105083 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:1193:28: Error: Type 'RecordPatternFieldName' not found.
+[custom_lint] 2023-03-01T11:18:30.105083   final List<_Subscription<RecordPatternFieldName>> _forRecordPatternFieldName =
+[custom_lint] 2023-03-01T11:18:30.105083                            ^^^^^^^^^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:18:30.105083 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:1331:19: Error: Type 'BinaryPattern' not found.
+[custom_lint] 2023-03-01T11:18:30.105083     void Function(BinaryPattern node) listener,
+[custom_lint] 2023-03-01T11:18:30.105083                   ^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:18:30.105083 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:2119:19: Error: Type 'PostfixPattern' not found.
+[custom_lint] 2023-03-01T11:18:30.105083     void Function(PostfixPattern node) listener,
+[custom_lint] 2023-03-01T11:18:30.105083                   ^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:18:30.105083 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:2175:19: Error: Type 'RecordPatternFieldName' not found.
+[custom_lint] 2023-03-01T11:18:30.105083     void Function(RecordPatternFieldName node) listener,
+[custom_lint] 2023-03-01T11:18:30.105083                   ^^^^^^^^^^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:18:30.105083 /Users/saleh/.pub-cache/hosted/pub.dev/custom_lint_core-0.2.12/lib/src/node_lint_visitor.dart:2602:19: Error: Type 'BinaryPattern' not found.
+[custom_lint] 2023-03-01T11:18:30.105083     void Function(BinaryPattern node) listener,
+[custom_lint] 2023-03-01T11:18:30.105083                   ^^^^^^^^^^^^^
+[custom_lint] 2023-03-01T11:18:30.105083
+[custom_lint] 2023-03-01T11:18:30.105083
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      _SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:490:11)
+#1      _rootRunUnary (dart:async/zone.dart:1406:47)
+#2      _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+<asynchronous suspension>
+#3      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+[custom_lint] 2023-03-01T11:21:09.862223 Error: Couldn't resolve the package 'custom_lint_builder' in 'package:custom_lint_builder/src/channel.dart'.
+[custom_lint] 2023-03-01T11:21:09.862223 lib/custom_lint_client.dart:3:8: Error: Not found: 'package:custom_lint_builder/src/channel.dart'
+[custom_lint] 2023-03-01T11:21:09.862223 import 'package:custom_lint_builder/src/channel.dart';
+[custom_lint] 2023-03-01T11:21:09.862223        ^
+[custom_lint] 2023-03-01T11:21:09.862223 lib/custom_lint_client.dart:9:3: Error: Method not found: 'runSocket'.
+[custom_lint] 2023-03-01T11:21:09.862223   runSocket(
+[custom_lint] 2023-03-01T11:21:09.862223   ^^^^^^^^^
+[custom_lint] 2023-03-01T11:21:09.862223
+[custom_lint] 2023-03-01T11:21:09.862223
+Failed to start pluginsThe request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Failed to start the plugins.
+at:
+#0      _SocketCustomLintServerToClientChannel._checkInitializationFail.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:490:11)
+#1      _rootRunUnary (dart:async/zone.dart:1406:47)
+#2      _CustomZone.runUnary (dart:async/zone.dart:1307:19)
+<asynchronous suspension>
+#3      Future.any.onValue (dart:async/future.dart:612:5)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+Bad state: Some dependencies with conflicting versions were identified:
+
+app at /Volumes/ssd/GitHub/hashtags_app
+- _fe_analyzer_shared v52.0.0
+- analyzer v5.4.0
+
+auth at /Volumes/ssd/GitHub/hashtags_app/packages/auth
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+app_tags at /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+chart_sparkline at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+
+chart_sparkline_example at /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+
+iap at /Volumes/ssd/GitHub/hashtags_app/packages/iap
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+common at /Volumes/ssd/GitHub/hashtags_app/packages/common
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+tweet_ui at /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+- _fe_analyzer_shared v54.0.0
+- analyzer v5.6.0
+
+This is not supported. Custom_lint shares the analysis between all packages. As such, all plugins are started under a single process, sharing the dependencies of all the packages that use custom_lint. Since there's a single process for all plugins, if 2 plugins try to use different versions for a dependency, the process cannot be reasonably started. Please make sure all packages have the same version.
+You could run the following commands to try fixing this:
+
+cd /Volumes/ssd/GitHub/hashtags_app
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/auth
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/app_tags
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/chart_sparkline/example
+flutter pub upgrade 
+cd /Volumes/ssd/GitHub/hashtags_app/packages/iap
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/common
+flutter pub upgrade _fe_analyzer_shared analyzer
+cd /Volumes/ssd/GitHub/hashtags_app/packages/tweet_ui
+flutter pub upgrade _fe_analyzer_shared analyzer
+
+at:
+#0      ConflictingPackagesChecker.throwErrorIfConflictingPackages (package:custom_lint/src/v2/server_to_client_channel.dart:175:5)
+#1      _writePackageConfigForTempProject (package:custom_lint/src/v2/server_to_client_channel.dart:266:30)
+#2      _SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:413:5)
+#3      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:289:25)
+<asynchronous suspension>
+#4      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:264:9)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:14:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:124:22)
+<asynchronous suspension>
+

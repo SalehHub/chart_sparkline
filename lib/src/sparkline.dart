@@ -375,12 +375,15 @@ class _SparklinePainter extends CustomPainter {
 
         String gridLineText = gridLinelabel != null ? gridLinelabel!(gridLineValue) : gridLineValue.toStringAsPrecision(gridLineLabelPrecision);
 
-        gridLineTextPainters.add(TextPainter(
+        gridLineTextPainters.add(
+          TextPainter(
             text: TextSpan(
                 // text: labelPrefix + gridLineText,
                 text: gridLinelabelPrefix + gridLineText,
                 style: TextStyle(color: gridLineLabelColor, fontSize: 9.0, fontWeight: FontWeight.normal)),
-            textDirection: TextDirection.ltr));
+            textDirection: TextDirection.ltr,
+          ),
+        );
         gridLineTextPainters[i].layout();
       }
     }
@@ -388,15 +391,11 @@ class _SparklinePainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    if (dataPoints.isEmpty) {
-      dataPoints = [0.0, 0.0];
-    }
-    if (dataPoints.length == 1) {
-      dataPoints = [dataPoints[0], dataPoints[0]];
-    }
+    getDataPoints();
 
     double width = size.width - lineWidth;
     final double height = size.height - lineWidth;
+
     final double heightNormalizer = (!enableThreshold) ? height / ((_max - _min) == 0 ? 1 : (_max - _min)) : (height - (height * thresholdSize)) / ((_max - _min) == 0 ? 1 : (_max - _min));
 
     final List<Offset> points = <Offset>[];
@@ -412,37 +411,17 @@ class _SparklinePainter extends CustomPainter {
       update();
     }
 
-    if (backgroundColor != null) {
-      var paintBgcolor = Paint()
-        ..style = PaintingStyle.fill
-        ..color = backgroundColor!;
-      canvas.drawRect(Offset.zero & size, paintBgcolor);
-    }
+    setBackground(canvas, size);
 
-    if (enableGridLines) {
-      width = size.width - gridLineTextPainters[0].size.width * 2;
-      Paint gridPaint = Paint()
-        ..color = gridLineColor
-        ..strokeWidth = gridLineWidth;
+    width = drawGrid(width, size, height, canvas);
+    width = drawLeftAndRightText(width, size, height, canvas);
 
-      double gridLineDist = height / (gridLineAmount - 1);
-      double gridLineY;
-
-      // Draw grid lines
-      for (int i = 0; i < gridLineAmount; i++) {
-        gridLineY = (gridLineDist * i).round().toDouble();
-        canvas.drawLine(Offset(0.0, gridLineY), Offset(width, gridLineY), gridPaint);
-
-        // Label grid lines
-        gridLineTextPainters[i].paint(canvas, Offset(width + 2.0, gridLineY - 6.0));
-      }
-    }
-
-    final double widthNormalizer = width / (dataPoints.length - 1);
+    double widthNormalizer = width / (dataPoints.length - 1);
 
     for (int i = 0; i < dataPoints.length; i++) {
       double x = i * widthNormalizer + lineWidth / 2;
       double y = (!heightNormalizer.isInfinite) ? height - (dataPoints[i] - _min) * heightNormalizer + lineWidth / 2 : height + lineWidth / 2;
+      x = x + 10;
 
       if (enableThreshold) {
         y = (y - (height * thresholdSize));
@@ -473,7 +452,7 @@ class _SparklinePainter extends CustomPainter {
     final Path path = Path();
     path.moveTo(startPoint.dx, startPoint.dy);
 
-    ///xlable
+    // // /xlable
     // for (int i = 0; i < dataPoints.length; i++) {
     //   var spPainter = TextPainter(
     //       text: TextSpan(
@@ -547,42 +526,7 @@ class _SparklinePainter extends CustomPainter {
 
     /////////////////
     //average line
-    if (averageLine) {
-      //
-      var paint1 = Paint()
-        ..style = PaintingStyle.stroke
-        ..color = gridLineLabelColor
-        ..strokeWidth = 2.0;
-
-      for (int i = 0; i <= (width / 6.0); ++i) {
-        double dx = 6.0 * i;
-        canvas.drawLine(Offset(dx, height / 2), Offset(dx, height / 2 + 1), paint1);
-      }
-      if (averageLabel) {
-        var averageVal = dataPoints.reduce((a, b) => a + b) / dataPoints.length;
-        String averageValText = gridLinelabel != null ? gridLinelabel!(averageVal) : averageVal.toStringAsPrecision(gridLineLabelPrecision);
-        var avgPaint = TextPainter(
-            textAlign: TextAlign.center,
-            text: TextSpan(
-              text: gridLinelabelPrefix + averageValText,
-              style: const TextStyle(
-                textBaseline: TextBaseline.alphabetic,
-                // height: 1.1,
-                color: Colors.white,
-                fontSize: 10.0,
-              ),
-            ),
-            textDirection: TextDirection.ltr);
-        avgPaint.layout();
-        RRect rect = RRect.fromLTRBR(size.width - avgPaint.width - 10.0, height / 2 - avgPaint.height / 2, width, height / 2 + avgPaint.height / 2, const Radius.circular(1.0));
-        var paint = Paint()
-          ..style = PaintingStyle.fill
-          ..color = gridLineColor;
-        canvas.drawRRect(rect, paint);
-        //
-        avgPaint.paint(canvas, Offset(width - avgPaint.width - 5.0, height / 2 - 5.0));
-      }
-    }
+    drawAverageLine(width, canvas, height, size);
 
     if (kLine != null && kLine!.isNotEmpty) {
       for (var item in kLine!) {
@@ -659,6 +603,109 @@ class _SparklinePainter extends CustomPainter {
         ..strokeWidth = pointSize
         ..color = pointColor;
       canvas.drawPoints(ui.PointMode.points, points, pointsPaint);
+    }
+  }
+
+  void drawAverageLine(double width, Canvas canvas, double height, Size size) {
+    if (averageLine) {
+      //
+      var paint1 = Paint()
+        ..style = PaintingStyle.stroke
+        ..color = gridLineLabelColor
+        ..strokeWidth = 4.0;
+
+      var other = 20.0;
+      for (int i = 0; i <= (width / other); ++i) {
+        double start = 1.0;
+        if (i == 0) {
+          start = 20;
+          canvas.drawLine(Offset(start, height / 2), Offset(start, height / 2 + 1), paint1);
+        } else {
+          start = 20.0 * i;
+        }
+        // double dx = start * i;
+        canvas.drawLine(Offset(start, height / 2), Offset(start, height / 2 + 1), paint1);
+      }
+
+      if (averageLabel) {
+        var averageVal = dataPoints.reduce((a, b) => a + b) / dataPoints.length;
+        String averageValText = gridLinelabel != null ? gridLinelabel!(averageVal) : averageVal.toStringAsPrecision(gridLineLabelPrecision);
+        var avgPaint = TextPainter(
+            textAlign: TextAlign.center,
+            text: TextSpan(
+              text: gridLinelabelPrefix + averageValText,
+              style: const TextStyle(
+                textBaseline: TextBaseline.alphabetic,
+                // height: 1.1,
+                color: Colors.white,
+                fontSize: 10.0,
+              ),
+            ),
+            textDirection: TextDirection.ltr);
+        avgPaint.layout();
+        RRect rect = RRect.fromLTRBR(size.width - avgPaint.width - 10.0, height / 2 - avgPaint.height / 2, width, height / 2 + avgPaint.height / 2, const Radius.circular(1.0));
+        var paint = Paint()
+          ..style = PaintingStyle.fill
+          ..color = gridLineColor;
+        canvas.drawRRect(rect, paint);
+        //
+        avgPaint.paint(canvas, Offset(width - avgPaint.width - 5.0, height / 2 - 5.0));
+      }
+    }
+  }
+
+  void setBackground(Canvas canvas, Size size) {
+    if (backgroundColor != null) {
+      var paintBgcolor = Paint()
+        ..style = PaintingStyle.fill
+        ..color = backgroundColor!;
+      canvas.drawRect(Offset.zero & size, paintBgcolor);
+    }
+  }
+
+  double drawGrid(double width, Size size, double height, Canvas canvas) {
+    if (enableGridLines) {
+      width = (size.width - gridLineTextPainters[0].size.width * 2) + 12;
+      Paint gridPaint = Paint()
+        ..color = gridLineColor
+        ..strokeWidth = gridLineWidth;
+
+      double gridLineDist = height / (gridLineAmount - 1);
+      double gridLineY;
+
+      // Draw grid lines
+      for (int i = 0; i < gridLineAmount; i++) {
+        gridLineY = (gridLineDist * i).round().toDouble();
+        canvas.drawLine(Offset(12.0, gridLineY), Offset(width, gridLineY), gridPaint);
+      }
+    }
+    return width;
+  }
+
+  double drawLeftAndRightText(double width, Size size, double height, Canvas canvas) {
+    if (enableGridLines) {
+      double gridLineDist = height / (gridLineAmount - 1);
+      double gridLineY;
+
+      for (int i = 0; i < gridLineAmount; i++) {
+        gridLineY = (gridLineDist * i).round().toDouble();
+
+        // Label grid lines right
+        gridLineTextPainters[i].paint(canvas, Offset(width + 10, gridLineY - 6.0));
+
+        // Label grid lines left
+        gridLineTextPainters[i].paint(canvas, Offset(-10, gridLineY - 6.0));
+      }
+    }
+    return width;
+  }
+
+  void getDataPoints() {
+    if (dataPoints.isEmpty) {
+      dataPoints = [0.0, 0.0];
+    }
+    if (dataPoints.length == 1) {
+      dataPoints = [dataPoints[0], dataPoints[0]];
     }
   }
 
